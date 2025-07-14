@@ -23,8 +23,8 @@ window.onload = function()
         document.querySelector("#en_fuse_amount").innerHTML = Math.round(en_fuse_amount * 100) / 100;
         document.querySelector("#en_fuse_regen_ratio_gnd").innerHTML = Math.round(en_fuse_regen_gnd * 100) / 100;
         document.querySelector("#en_fuse_regen_ratio_air").innerHTML = Math.round(en_fuse_regen_air * 100) / 100;
-        document.querySelector("#en_fuse_regen_ratio_time_gnd").innerHTML = `${Math.round(en_fuse_time_gnd * 100) / 100}秒`;
-        document.querySelector("#en_fuse_regen_ratio_time_air").innerHTML =  `${Math.round(en_fuse_time_air * 100) / 100}秒`;
+        document.querySelector("#en_fuse_regen_ratio_time_gnd").innerHTML = `${Math.round(en_fuse_time_gnd * 100) / 100}sec`;
+        document.querySelector("#en_fuse_regen_ratio_time_air").innerHTML =  `${Math.round(en_fuse_time_air * 100) / 100}sec`;
 
         return false; 
     });
