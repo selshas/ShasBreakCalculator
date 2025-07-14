@@ -1,0 +1,75 @@
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+h1 {
+    margin:0;
+    padding:0.25em 0.5em;
+    padding-right: 1em;
+
+    border-bottom:solid 0.1em black;
+}
+
+label, input {
+    display:inline-flex;
+}
+
+label {
+    /* width:12em; */
+}
+
+section#content
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: flex-start;
+
+    box-sizing: border-box;
+    padding: 5em 20em;
+}
+
+section#howTo
+{
+    flex:1 1 0;
+    padding: 0 5em;
+    box-sizing: border-box;
+    text-align:center;
+}
+
+section#howTo h2
+{
+    text-align:left;
+}
+section#howTo ol
+{
+    text-align:left;
+}
+
+section#calculator
+{
+    flex:1 1 0;
+}
+
+form#form_en_fuse_time_calculator
+{
+    display:grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.5em 0.25em;
+    padding:1em 2em;
+
+    border:solid 0.1em #000;
+    border-radius:1em;
+}
+form#form_en_fuse_time_calculator input[type=submit]
+{
+    grid-column: 1 / 3;
+    margin-top:1em;
+}
+
+table#result
+{
+    margin-top:1em;
+}
